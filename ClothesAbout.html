@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About</title>
+
+  <style>
+    html {
+      background-color: #121212;
+    }
+
+    html.light {
+      background-color: #f5f5f5;
+    }
+  </style>
+
+  <script>
+    (function () {
+      const mode = localStorage.getItem('dark-mode');
+
+      if (mode === 'disabled') {
+        document.documentElement.classList.add('light');
+      }
+    })();
+  </script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="ClothesAbout.css">
+
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+
+  <button class="darkModeToggle">DarkMode</button>
+
+  <h1 id="FashionBoutique">Fashion Boutique</h1>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="ClothesAbout.html">About</a>
+    <a href="ClothesContact.html">Contact</a>
+  </nav>
+
+</header>
+
+
+<!-- HERO -->
+<section class="about-hero">
+
+  <h2>About Our Brand</h2>
+
+  <p>
+    Luxury fashion designed for confidence and elegance
+  </p>
+
+</section>
+
+<hr class="section-line">
+
+
+<!-- SPLIT -->
+<section class="split">
+
+  <div class="about-text">
+
+    <h2>Our Story</h2>
+
+    <p>
+      We create modern and elegant clothing that empowers women.
+      Every design is crafted with passion, quality, and style.
+    </p>
+
+  </div>
+
+  <div class="about-img">
+
+    <img src="CLothes About Image .png">
+
+  </div>
+
+</section>
+
+<hr class="section-line">
+
+
+<!-- CARDS -->
+<section class="about-cards">
+
+  <div class="card">
+    <h3>✨ Premium Quality</h3>
+    <p>High-end fabrics and perfect finishing.</p>
+  </div>
+
+  <div class="card">
+    <h3>👗 Modern Designs</h3>
+    <p>Trendy styles made for today’s women.</p>
+  </div>
+
+  <div class="card">
+    <h3>💖 Trusted Brand</h3>
+    <p>Loved by many happy customers.</p>
+  </div>
+
+</section>
+
+<hr class="section-line">
+
+
+<!-- MISSION -->
+<section class="mission">
+
+  <h2>Our Mission</h2>
+
+  <p>
+    Our mission is to bring elegance, confidence,
+    and modern fashion into every woman's life
+    through high-quality design.
+  </p>
+
+</section>
+
+
+<!-- WHY US -->
+<section class="why-us">
+
+  <div class="why-box">🚀 Fast Service</div>
+
+  <div class="why-box">💎 Premium Quality</div>
+
+  <div class="why-box">💬 Easy Communication</div>
+
+  <div class="why-box">💰 Affordable Pricing</div>
+
+</section>
+
+<hr class="section-line">
+
+
+<!-- TEAM -->
+<section class="team">
+
+  <h2>Our Vision</h2>
+
+  <p>
+    We aim to become a trusted fashion brand that represents
+    style, confidence, and modern elegance.
+  </p>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer class="footer">
+
+  <div class="footer-container">
+
+    <div class="footer-box">
+
+      <h2>Fashion <span>Boutique</span></h2>
+
+      <p id="myP">
+        Empowering women through
+        <span>elegant fashion and timeless</span> style.
+      </p>
+
+      <div class="social-icons">
+
+        <a href="https://wa.me/0791911786">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+
+        <a href="https://instagram.com/nawid_ziayee">
+          <i class="fab fa-instagram"></i>
+        </a>
+
+        <a href="https://x.com/">
+          <i class="fab fa-x-twitter"></i>
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <div class="footer-box">
+
+      <h3>Quick Links</h3>
+
+      <a href="Clothes.html">Home</a>
+      <a href="ClothesAbout.html">About</a>
+      <a href="ClothesContact.html">Contact</a>
+
+    </div>
+
+
+    <div class="footer-box">
+
+      <h3>Support</h3>
+
+      <p>FAQs</p>
+      <p>Shipping</p>
+      <p>Returns</p>
+      <p>Privacy & policy</p>
+
+    </div>
+
+
+    <div class="footer-box">
+
+      <h3>Stay Updated</h3>
+
+      <p>Join our newsletter for new drops & offers.</p>
+
+      <form action="https://formspree.io/f/xpqkejla"
+      method="post"
+      class="newsletter">
+
+        <input
+        type="email"
+        name="email"
+        placeholder="Enter your email"
+        required>
+
+        <input type="hidden"
+        name="_next"
+        value="thankyou.html">
+
+        <button type="submit">→</button>
+
+      </form>
+
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 Fashion Boutique — All Rights Reserved
+  </div>
+
+</footer>
+
+<script src="ClothesAbout.js"></script>
+
+</body>
+</html>
