@@ -431,15 +431,37 @@ nav a:hover{
 
 @media (max-width: 768px){
 
-  header{
+   header {
     flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    gap: 15px;
+  }
+
+  #FashionBoutique,
+  #ContactBtn {
+    margin: 0;
+    font-size: 28px;
     text-align: center;
   }
 
-  nav{
+  nav {
+    display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
   }
 
+  nav a {
+    margin: 0;
+    font-size: 16px;
+  }
+
+  .darkModeToggle {
+    font-size: 16px;
+    padding: 8px 14px;
+  }
+}
   .hero{
     padding: 60px 20px;
   }
@@ -474,7 +496,7 @@ nav a:hover{
     padding: 12px 30px;
   }
 
-}
+
 
 /* =========================
    TOUCH FIX
